@@ -4,4 +4,4 @@ RUN conda config --add channels defaults && \
     conda config --add channels conda-forge &&\
     conda config --add channels bioconda
 
-RUN conda install -y star multiqc trim-galore subread fastqc
+RUN conda install -y star multiqc trim-galore subread fastqc gatk
